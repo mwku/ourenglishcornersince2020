@@ -39,7 +39,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: end;
-    font:  10px Roboto, sans-serif ;
+    font:  15px Roboto, sans-serif ;
     color: #999;
 }
 .text{
