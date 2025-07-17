@@ -8,12 +8,12 @@ body{
 .index{
     display: flex;
     justify-content: center;
-    width: 400px;
+    width: 350px;
     flex-direction: column;
 }
 .block{
     background-color: #ffffff;
-    width: 400px;
+    width: 350px;
     height: 250px;
     border-radius: 15px;
     margin-top: 20px;
@@ -23,12 +23,12 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 400px;
+    width: 350px;
     height: 75px;
     display: flex;
     align-items: center;
     padding-left: 20px;
-    font: bold 40px Roboto, sans-serif   ;
+    font: bold 35px Roboto, sans-serif   ;
 }
 .link{
     position: absolute;
@@ -39,7 +39,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: end;
-    font:  25px Roboto, sans-serif ;
+    font:  10px Roboto, sans-serif ;
     color: #999;
 }
 .text{
@@ -50,7 +50,7 @@ body{
     height: 100px;
     display: flex;
     align-items: start;
-    font:  20px Roboto, sans-serif ;
+    font:  15px Roboto, sans-serif ;
 }
 .info{
     color: #999;
