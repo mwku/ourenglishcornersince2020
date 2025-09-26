@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 let linkHtml = '';
                 item.link.forEach((linkUrl, index) => {
                     const linkText = item.link.length === 1 ? 'link' : `link ${index + 1}`;
-                    linkHtml += `<a href="${linkUrl}" target="_blank" class="link" ${item.link.length > 1 ? `style="bottom: ${(item.link.length-index) * 30}px;"` : ''}>${linkText}</a>`;
+                    linkHtml += `<a href="${linkUrl}" target="_blank" class="link" ${item.link.length > 1 ? `style="bottom: ${(item.link.length-index-1) * 30}px;"` : ''}>${linkText}</a>`;
                 });
 
                 let blockHtml = element_template
