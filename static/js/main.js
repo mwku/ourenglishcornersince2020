@@ -12,7 +12,7 @@ const bottom_element =`<div class="info">
         </div>`
 document.addEventListener('DOMContentLoaded', function() {
     let mainDiv = document.getElementById('main');
-    fetch('/data.json')
+    fetch('./data.json')
         .then(response => response.json())
         .then(data=>{
             data.forEach(item => {
